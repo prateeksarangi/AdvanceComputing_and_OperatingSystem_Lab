@@ -59,12 +59,12 @@ void findavgTime(int processes[], int n, int bt[], int quantum){
 
 
 int main(){ 
-	int processes[] = { 1, 2, 3}; 
+	int processes[] = { 1, 2, 3, 4}; 
 	int n = sizeof processes / sizeof processes[0]; 
 
-	int burst_time[] = {10, 5, 8}; 
+	int burst_time[] = {9, 5, 3, 4}; 
 
-	int quantum = 2; 
+	int quantum = 5; 
 	findavgTime(processes, n, burst_time, quantum); 
 	return 0; 
 }
