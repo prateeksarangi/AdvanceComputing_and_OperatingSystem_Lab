@@ -29,4 +29,4 @@ dtt = Decimal(0)
 dtt = pow(ct,d) 
 dt = dtt % n 
 
-print('n = '+str(n)+' e = '+str(e)+' t = '+str(t)+' d = '+str(d)+' cipher text = '+str(ct)+' decrypted text = '+str(dt)) 
+print('n = '+str(n)+' e = '+str(e)+' phi(n) = '+str(t)+' d = '+str(d)+' cipher text = '+str(ct)+' decrypted text = '+str(dt)) 

@@ -34,7 +34,7 @@ int main()
 	int k = 2; 
 	double d = (1 + (k*phi))/e; 
 
-	double msg = 20; 
+	double msg = 12; 
 
 	printf("Message data = %lf", msg); 
 
